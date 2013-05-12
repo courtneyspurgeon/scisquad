@@ -1,0 +1,13 @@
+/*
+Theme Name:     Customization for 1336 theme
+Description:    Child theme for the Theme 1336 theme
+Author:         Cascade Science Dev Team
+Author URI:     http: //www.cascadescience.org/
+Template:       theme1336
+Version:        0.1.0
+*/
+ 
+@import url("../theme1336/style.css");
+ 
+.logo { border: 1px solid #ccc;}
+.primary { border-bottom: 5px solid #ccc;}
