@@ -47,13 +47,20 @@
 	
 	/* Set the file path based on whether the Options Framework Theme is a parent theme or child theme */
 	
-	if ( STYLESHEETPATH == TEMPLATEPATH ) {
+	/////////// Start courtneyspurgeon changes
+	// Commenting out done by courtneyspurgeon 5.12.2013
+	// created a child theme and we do not want to duplicate all the option files
+	// child theme only used for php template files and css
+
+	//if ( STYLESHEETPATH == TEMPLATEPATH ) {
 		define('OPTIONS_FRAMEWORK_URL', TEMPLATEPATH . '/admin/');
 		define('OPTIONS_FRAMEWORK_DIRECTORY', get_bloginfo('template_directory') . '/admin/');
-	} else {
-		define('OPTIONS_FRAMEWORK_URL', STYLESHEETPATH . '/admin/');
-		define('OPTIONS_FRAMEWORK_DIRECTORY', get_bloginfo('stylesheet_directory') . '/admin/');
-	}
+	// } else {
+	// 	define('OPTIONS_FRAMEWORK_URL', TEMPLATEPATH . '/admin/');
+	// 	define('OPTIONS_FRAMEWORK_DIRECTORY', get_bloginfo('stylesheet_directory') . '/admin/');
+	// }
+		
+	/////////// end courtneyspurgeon changes
 	
 	require_once (OPTIONS_FRAMEWORK_URL . 'options-framework.php');
 	
