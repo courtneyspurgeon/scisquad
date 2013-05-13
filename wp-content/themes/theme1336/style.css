@@ -705,7 +705,7 @@ ul.sf-menu li li li.sfHover ul {
 	z-index:1;
 	padding:20px 0;
 	/*height of the main content page*/
-	height:300px;
+	min-height:300px;
 	background:white;
 	overflow:hidden;
 	}

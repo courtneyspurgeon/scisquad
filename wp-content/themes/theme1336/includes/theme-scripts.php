@@ -2,7 +2,7 @@
 function my_script() {
 	if (!is_admin()) {
 		wp_deregister_script('jquery');
-		wp_register_script('jquery', get_bloginfo('template_url').'/js/jquery-1.6.4.min.js', false, '1.6.4');
+		wp_register_script('jquery', get_bloginfo('template_url').'/js/jquery-1.7.2.min.js', false, '1.7.2');
 		wp_enqueue_script('jquery');
 	
 		wp_enqueue_script('modernizr', get_bloginfo('template_url').'/js/modernizr.js', array('jquery'), '2.0.6');
