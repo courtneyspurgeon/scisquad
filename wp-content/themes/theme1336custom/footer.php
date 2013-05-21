@@ -5,7 +5,8 @@
   	<footer id="footer">
       <div id="footer_banner">
         <div class="footer_3col">
-          sponsered by
+      
+          sponsered by....
         </div>
         <div class="footer_3col">
           sign up for email updates
@@ -21,14 +22,19 @@
           <h5 class="mid_title">Our Role</h5>
           <ul>
             <li><a href="">Our Promise</a></li>
-            <li><a href="">Team</a></li>
+            <li><a href="">Our Team</a></li>
+	    <li><a href="">Partnership</a></li>
+	    <li><a href="">Latest News</a></li>
+	    <li><a href="">Newsletters</a></li>
+	    <li><a href="">FAQ</a></li>
+	    <li><a href="">Contact Us</a></li>
           </ul>
         </div>
         <div class="footer_4col">
           <h5 class="mid_title">Get Involved</h5>
           <ul>
-            <li><a href="">Be a mentor</a></li>
-            <li><a href="">Activity Lead FAQ</a></li>
+            <li><a href="">Join Us</a></li>
+            <li><a href="">Volunteer</a></li>
           </ul>
         </div>
         <div class="footer_4col">
@@ -36,6 +42,9 @@
           <ul>
             <li><a href="">Donate Online</a></li>
             <li><a href="">Recurring Donation</a></li>
+	    <li><a href="">Other Ways to Donate</a></li>
+	    <li><a href="">Planned Giving</a></li>
+	    <li><a href="">Provide a Venue</a></li>
           </ul>
         </div>
         <div class="footer_4col">
